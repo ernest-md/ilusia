@@ -1,0 +1,95 @@
+Hola! En este tutorial os comento cómo arrancar y añadir información a la página.
+
+Recomendación : Instalarse Visual Studio Code que es el programa que yo uso actualmente
+                y con el cual voy a trabajar sobre este proyecto.
+
+Si alguien quiere que haga el tutorial con él porque no lo ve claro, que me avise y cuando
+tengamos un rato le damos.
+
+1. Preparar el proyecto :
+    El proyecto funciona con VUE, para tener lo necesario para arrancarlo seguid 
+    el siguiente tutorial (Win10) : https://tutobasico.com/instalar-nodejs-y-npm/
+
+        - No he probado que funcione el tuto porque estoy en el trabajo (MAC), si no va
+        y quereis buscar info sobre como arrancar esto: Basicamente necesitamos el comando
+        'npm' para poder hacer 'npm run serve' y arrancar el proyecto. En linux/MAC con un
+        par de comandos lo tienes listo, en Windows creo que se ha de instalar NodeJS primero,
+        y no se muy bien como va, espero que el tuto de arriba os funcione bien, si no al llegar
+        a casa busco mas.  
+
+    Posteriormente os dirigís a la carpeta donde se encuentra el proyecto :
+        cd C:/....../illusia (ruta donde se encuentra el proyecto)
+
+    Y por ultimo lanzáis el comando :
+        npm run serve
+
+    De esta manera si abrís vuestro navegador y ponéis localhost:8080 (deberia poner ese), 
+    deberíais poder acceder a la pagina. 
+
+    - Si utilizamos Visual Studio :
+        Una vez hecho los pasos anteriores, abrimos Visual Studio.
+        Una vez dentro abrimos la carpeta de nuestro proyecto, podéis fijaros que a la izquierda
+        nos salen todas las carpetas y archivos que contiene. 
+    
+    - Si no utilizamos Visual Studio :
+        Ni zorra, usad Visual Studio.
+
+2. Trabajar con el proyecto :
+    Dentro del proyecto podéis ver una carpeta 'src', esta es la carpeta donde se encuentran
+    los archivos con los que vamos a trabajar.
+
+    El archivo App, es el que menos os importa. Sirve de base para la pagina y contiene la barra
+    de navegación. A no ser que queramos añadir mas apartados a la pagina no se debería tocar.
+    El banner y el fondo de la pagina son como ejemplo, serán cambiado a posterior.
+
+    Dentro de la carpeta 'src', entrad en la carpeta 'components'. Dentro de esta carpeta podeis ver
+    que hay varios archivos : Arcos, Future, Homepage, Lore, Personajes.
+
+    Cada archivo representa un apartado de la pagina, cuando hacéis clic en la barra de navegación
+    la pagina os muestra dicho archivo (no es necesario entender mucho esto).
+
+    Ara bien, vamos a lo que nos interesa. Como escribir en la página.
+
+    - Homepage : Esta pagina no tiene misterio. Al entrar al archivo veréis que literalmente
+        esta el párrafo que sale en la página. Ahora mismo solo hay una pequeña presentación, pero 
+        la idea es que esto sirva como pagina principal, tal vez lo vaya actualizando con noticias y tal.
+
+    - Arcos : Esta pagina es la que muestra la información de los arcos de la campaña.
+        Al entrar, si bajáis un poco podéis ver que esta escrita la información de los arcos que se 
+        despliega al entrar en la página.
+        Actualmente os he puesto unos tres párrafos (sin limite de palabras) con los que trabajar, 
+        a medida que avancemos el proyecto os lo iré poniendo más bonito.
+
+    - Personajes : Funciona exactamente igual que con los arcos. Al bajar en el archivo podréis ver que
+        hay un bloque creado para cada personaje (hay bloques sin rellenar, pereza). 
+        Al igual que los arcos os he dejado unos tres párrafos para escribir vuestras cosas, a posteriori 
+        lo pondremos mas bonito. 
+        Podéis ver una diferencia con los arcos, y es que en esta pagina cuando entráis os sale el listado de 
+        los personajes de esta categoría, para acceder a la info simplemente tenéis que hacerle un clic y se abrirá
+        una pantalla con la información que haya en el archivo.
+
+        IMPORTANTE : Para añadir personajes con copiar un bloque (cualquier personaje)
+            i pegarlo debajo del ultimo ya estaria. (CAMBIAR ID)
+
+    - Lore : Funciona exactamente cómo los arcos, en este caso os he dejado 5 párrafos, para ir sobrados.
+
+    - Futuro : Por este no os tenéis que preocupar, esta pagina es la que utilizaré para ir poniendo información sobre
+        el estado de la siguiente campaña que estoy planteando.
+
+    IMPORTANTE : Podeis utilizar \n para hacer un salto de linea.
+                 Para organizaros mejor podeis hacer "blabla" + "blabla", ejemplo en Yanelis.
+
+A medida que vayáis escribiendo y rellenando los documentos, me los pasas por donde veáis (discord o drive).
+Me podéis pasar el archivo que habéis modificado, directamente el código que habéis cambiado (copiar y pegar).
+
+Si veis que es muy liado y no os aclaráis, cuando este por ahi me preguntáis y os hago una explicación
+mientras comparto pantalla, es very very easy.
+
+Cualquier queja, duda o petición a cosa que añadir o cambiar, ya sabéis donde encontrarme.
+
+Si alguien sabe HTML y se aventura a codificar lo que le apetezca directamente, estoy utilizando
+una libreria que se llama ElementUI, por si alguien quiere mirarse la API.
+
+Una vez todo esto comentado, poco mas que añadir, a escribir se ha dicho.
+
+
