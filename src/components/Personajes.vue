@@ -73,7 +73,7 @@ export default {
               id: 4,
               nombre: "Jaden",
               magia: "Maricon",
-              lore:  "No me pagan lo suficiente.",
+              lore:  "No me pagan uyfuyfruytlo suficiente.",
               lore2: "No me pagan lo suficiente.",
               lore3: "No me pagan lo suficiente.",
             },
