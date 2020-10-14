@@ -20,7 +20,7 @@
     <el-dialog title="Información de personaje" :visible.sync="dialogVisible" width="40%">
       <span>Nombre : {{ personajes[$route.params.id - 1].estudiantes[index].nombre }}</span>
       <br />
-      <span>Magieqeqea : {{ personajes[$route.params.id - 1].estudiantes[index].magia }}</span>
+      <span>Magia : {{ personajes[$route.params.id - 1].estudiantes[index].magia }}</span>
       <br />
       <span>Apariencia : {{ personajes[$route.params.id - 1].estudiantes[index].lore }}</span>
       <br />
