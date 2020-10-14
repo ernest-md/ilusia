@@ -22,11 +22,11 @@
       <br />
       <span>Magia : {{ personajes[$route.params.id - 1].estudiantes[index].magia }}</span>
       <br />
-      <span>Lore : {{ personajes[$route.params.id - 1].estudiantes[index].lore }}</span>
+      <span>Apariencia : {{ personajes[$route.params.id - 1].estudiantes[index].lore }}</span>
       <br />
-      <span>Lore : {{ personajes[$route.params.id - 1].estudiantes[index].lore2 }}</span>
+      <span>Personalidad : {{ personajes[$route.params.id - 1].estudiantes[index].lore2 }}</span>
       <br />
-      <span>Lore : {{ personajes[$route.params.id - 1].estudiantes[index].lore3 }}</span>
+      <span>Historia : {{ personajes[$route.params.id - 1].estudiantes[index].lore3 }}</span>
     </el-dialog>
   </div>
 </template>
@@ -63,16 +63,16 @@ export default {
             },
             {
               id: 3,
-              nombre: "Devika",
-              magia: "Invocación de armas / Hemomancia",
-              lore:  "Pongan agua.",
-              lore2: "Pongan agua.",
-              lore3: "Pongan agua.",
+              nombre: "Devika Ravenhertz \n",
+              magia: "Invocación de armas / Hemomancia \n",
+              lore: "\n" + "\n Altura: 1'52cm \n" + "Peso: 48kg \n" + "\n" + "Devika tiene el cabello blanco, por los hombros y los ojos rojos de color rojo carmesí al igual que su padre debido al efecto secundario del uso de los poderes hemomantes que causan parcial o total albinismo. Su tez es bastante pálida y algo que destaca de su diseño son las marcas de maquillaje que tiene bajo los ojos de color granate. Su estatura y peso son bastante bajos para su edad siendo la segunda más delgada de Jafang (la primera siendo Valentina). \n" + "\n" + "Cuando era pequeña su cabello era largo y marrón, normalmente recogido en una trenza, llevaba gafas redondas y tenía los ojos marrón oscuro. La magia de sangre curó su miopía por lo que ya no usa gafas. \n" ,
+              lore2: "\n" + "\n Personalidad: INTJ \n" + "Nacimiento: 11 de noviembre (Escorpio) \n" + "\n" + "La mayoría del tiempo Devika se muestra distante y fría con las personas que no conoce y le cuesta abrirse a los demás y mantener conversaciones largas pero en confianza es comprensiva y atenta aunque aún algo tímida y reservada. A veces pierde los estribos cuando la situación se le va de las manos, creándole gran estrés no tener todo bajo control. A pesar de que no suele decidir tomar las riendas en nada que implique más personas tiene gran iniciativa, astucia y perspicacia \n" + "\n" + "Al principio no entendía interacciones sociales como el uso del sarcasmo o el motivo de las emociones de los demás pero después de leer “El libro de las emociones” aprende con rapidez a actuar ante diferentes situaciones casuales y acaba aficionándose al apartado de el sarcasmo usándolo con frecuencia en su día a día. \n" + "\n" + "Tiene dificultad para identificar sus sentimientos y a veces hasta a gestionarlos. A pesar de tener buena autoestima es envidiosa de las cualidades sociales de los demás y es demasiado orgullosa como para admitirlo así que es un tema que le enfada bastante. \n" + "\n" + "A Devika le inspira tocar el violín y le relaja escribir tanto relatos como poesía como canciones. Le agobia la sensación de perder el tiempo o fracasar en algo que le importa así que le suele dedicar tiempo a estudiar. \n" ,
+              lore3: "Devika pertenece a la familia Ravenhertz y Weiss, un linaje de magos oscuros que viven en la ciudad de Illusia desde hace generaciones. Como el resto de su línea no tiene bendición de ningún elemento y en su lugar practica magia prohibida de sangre (Hemomancia) e invocación de armas. \n" + "\n" + "Devika es una buena estudiante en Arcus dentro de la casa de Jafang y se suele juntar con pocas personas debido a su síndrome de Asperger, normalmente siendo éstas Yanelis, Khalil, Javier y Gael. \n" + "\n" + "Cuando llegó a la academia se unió al club prohibido de magias oscuras y conoció a Alexis, una chica que se mostró amigable con ella durante las primeras semanas de colegio. A medida que avanzaron las cosas Devika se dio cuenta de que actuaba de forma extraña y sospechosa para acabar descubriendo que algo tuvo que ver en la explosión en el barrio pobre de Illusia. A partir de ahí Devika comienza a investigar el caso por su cuenta con ayuda de sus 4 amigos hasta acabar en una ocasión enfrentándose Alexis y a su grupo en una excursión. \n" + "\n" + "Tras ésto Alexis abandona la ciudad no sin antes dejarle en sus manos una pista para continuar su investigación por lo que Devika va a la trampilla del bosque de Arcus que comunica con el barrio de ocio de la ciudad y conoce a Frederic, un hombre que maneja cosas ilegales en ese área y con el que acaba firmando un contrato a cambio de información y protección. \n" ,
             },
             {
               id: 4,
               nombre: "Jaden",
-              magia: "Pintura",
+              magia: "Maricon",
               lore:  "No me pagan lo suficiente.",
               lore2: "No me pagan lo suficiente.",
               lore3: "No me pagan lo suficiente.",
@@ -89,7 +89,7 @@ export default {
               id: 6,
               nombre: "Stormy",
               magia: "Roca",
-              lore:  "Traidora a la patria.",
+              lore:  "Traidora a la patria 100% real.",
               lore2: "Traidora a la patria.",
               lore3: "Traidora a la patria.",
             },
